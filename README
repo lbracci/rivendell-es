@@ -1,0 +1,56 @@
+RIVENDELL 1.60 - ARCHIVOS PARA LA VERSION EN ESPAÑOL - SPANISH LANGUAGE FILES
+=============================================================================
+Luigino Bracci Roa
+Lbracci@gmail.com
+
+En este repositorio usted podrá encontrar los archivos en español del
+software de automatización radial Rivendell (www.rivendellaudio.org).
+Usted puede copiarlos en el código fuente de Rivendell para generar
+los archivos .qm, los cuales puede copiar en sus estaciones de trabajo
+para tener Rivendell en Español. No hace falta recompilar los archivos,
+sólo tiene que copiar los archivos .qm en la carpeta /usr/share/rivendell
+
+In this repository you can find the spanish traslation files for
+the Rivendell radio automation software (www.rivendellaudio.org). 
+You can copy the .ts files into the Rivendell's source code to generate
+the .qm files; you can copy the .qm files in your workstations to 
+get Rivendell in Spanish. It is not needed to recompile the executable
+files, just copy the .qm files into the /usr/share/rivendell folder.
+
+Las siguientes palabras fueron traducidas así:
+The following words were traslated as shown:
+
+- cart = cartucho.
+- cut = audio.
+- log = playlist (lo más apropiado sería "lista de reproducción", pero
+  es demasiado larga dado el tamaño de los botones - it would be more
+  appropiate to use the phrase "lista de reproducción", but it is too 
+  long and it won't fit in the buttons).
+- voice track = no fue traducida - untraslated.
+
+Los archivos .ts deben sustituir a los archivos .ts en el código fuente. 
+Usted puede usar los comandos lupdate y lrelease para generar los 
+archivos .qm, los cuales puede copiar en la carpeta /usr/share/rivendell/ 
+en Debian o Ubuntu. Luego, puede iniciar los programas de Rivendell con 
+la variable LANG=es. 
+
+Ejemplo:
+
+LANG=es rdairplay
+LANG=es rdlibrary
+
+The .ts files must replace the .ts files in the source code. You can use
+lupdate and lrelease to generate the .qm files; you can copy the .qm files
+to the folder /usr/share/rivendell/
+Then, you can run the Rivendell programs using the var LANG=es. Example:
+
+LANG=es rdairplay
+LANG=es rdlibrary
+
+Critics and suggestions: Lbracci@gmail.com
+Críticas y sugerencias: Lbracci@gmail.com
+
+
+
+
+
