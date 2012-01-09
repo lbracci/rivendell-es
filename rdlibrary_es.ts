@@ -911,7 +911,7 @@ Cartucho</translation>
     </message>
     <message>
         <source>ALL</source>
-        <translation>TODAS</translation>
+        <translation>ALL</translation>
     </message>
     <message>
         <source>Empty Clipboard</source>
