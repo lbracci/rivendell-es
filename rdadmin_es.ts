@@ -1047,6 +1047,65 @@ Do you still want to save?</source>
     </message>
 </context>
 <context>
+    <name>EditHotkeys</name>
+    <message>
+        <source>Host Hot Key Configurations</source>
+        <translation>Configuración de atajos de teclado</translation>
+    </message>
+    <message>
+        <source>Button / Function </source>
+        <translation>Botón / Función </translation>
+    </message>
+    <message>
+        <source>KeyStroke</source>
+        <translation>Tecla(s)</translation>
+    </message>
+    <message>
+        <source>Set</source>
+        <translation>Asignar</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Clear All Hotkeys</source>
+        <translation>Borrar todo</translation>
+    </message>
+    <message>
+        <source>Set From Host:</source>
+        <translation>Copiar desde:</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>Duplicate Entries</source>
+        <translation>Entradas duplicadas</translation>
+    </message>
+    <message>
+        <source>Hotkeys Clear</source>
+        <translation>Teclas borradas</translation>
+    </message>
+    <message>
+        <source>Hotkeys Updated</source>
+        <translation>Teclas actualizadas</translation>
+    </message>
+    <message>
+        <source>No Items Selected</source>
+        <translation>No se han seleccionado ítems</translation>
+    </message>
+    <message>
+        <source>Please Select an Item From the List</source>
+        <translation>Por favor, seleccione un ítem de la lista</translation>
+    </message>
+</context>
+<context>
     <name>EditMatrix</name>
     <message>
         <source>Edit Switcher</source>
@@ -1854,6 +1913,77 @@ equipo configurado para ejecutar CAE para obtener la información de audio.</tra
     </message>
 </context>
 <context>
+    <name>EditReplicator</name>
+    <message>
+        <source>Replicator: </source>
+        <translation>Replicador: </translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Nombre:</translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation>Descripción: </translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Tipo:</translation>
+    </message>
+    <message>
+        <source>Host System:</source>
+        <translation>Anfitrión:</translation>
+    </message>
+    <message>
+        <source>Audio Upload URL:</source>
+        <translation>URL p/subir audio:</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Usuario:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Clave:</translation>
+    </message>
+    <message>
+        <source>Upload Format:</source>
+        <translation>Formato de subida:</translation>
+    </message>
+    <message>
+        <source>S&amp;et</source>
+        <translation>&amp;Elegir</translation>
+    </message>
+    <message>
+        <source>Normalize</source>
+        <translation>Normalizar</translation>
+    </message>
+    <message>
+        <source>Level:</source>
+        <translation>Nivel:Nivel:</translation>
+    </message>
+    <message>
+        <source>dBFS</source>
+        <translation>dBFS</translation>
+    </message>
+    <message>
+        <source>Available Groups</source>
+        <translation>Grupos disponibles</translation>
+    </message>
+    <message>
+        <source>Active Groups</source>
+        <translation>Grupos activos</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Aceptar</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancelar</translation>
+    </message>
+</context>
+<context>
     <name>EditReport</name>
     <message>
         <source>Edit Report</source>
@@ -2402,11 +2532,11 @@ debe guardarse.  ¿Hacerlo ahora?</translation>
     </message>
     <message>
         <source>&amp;User Name:</source>
-        <translation>Nombre del &amp;Usuario:</translation>
+        <translation>&amp;Usuario:</translation>
     </message>
     <message>
         <source>&amp;Full Name:</source>
-        <translation>&amp;Nombre Completo:</translation>
+        <translation>&amp;Nombre:</translation>
     </message>
     <message>
         <source>&amp;Description:</source>
@@ -2541,6 +2671,29 @@ Feeds para Podcasts</translation>
     <message>
         <source>Allow Web Logins</source>
         <translation>Permitir ingreso vía Web</translation>
+    </message>
+</context>
+<context>
+    <name>EditUserPerms</name>
+    <message>
+        <source>User: </source>
+        <translation>Usuario:</translation>
+    </message>
+    <message>
+        <source>Available Groups</source>
+        <translation>Grupos disponibles</translation>
+    </message>
+    <message>
+        <source>Enabled Groups</source>
+        <translation>Grupos activos</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Aceptar</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancelar</translation>
     </message>
 </context>
 <context>
@@ -3302,11 +3455,11 @@ Do you still want to proceed?</source>
     </message>
     <message>
         <source>USER NAME</source>
-        <translation>NMBRE USUAR</translation>
+        <translation>USUARIO</translation>
     </message>
     <message>
         <source>FULL NAME</source>
-        <translation>NMBRE COMPLETO</translation>
+        <translation>NOMBRE COMPLETO</translation>
     </message>
     <message>
         <source>Are you sure you want to delete user</source>
