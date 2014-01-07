@@ -39,19 +39,19 @@
     </message>
     <message>
         <source>&amp;Audition</source>
-        <translation>Escuc&amp;har</translation>
+        <translation type="obsolete">Escuc&amp;har</translation>
     </message>
     <message>
         <source>&amp;Pause</source>
-        <translation>&amp;Pausar</translation>
+        <translation type="obsolete">&amp;Pausar</translation>
     </message>
     <message>
         <source>&amp;Stop</source>
-        <translation>&amp;Parar</translation>
+        <translation type="obsolete">&amp;Parar</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation>Iniciar</translation>
+        <translation type="obsolete">Iniciar</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>End</source>
-        <translation>Fin</translation>
+        <translation type="obsolete">Fin</translation>
     </message>
     <message>
         <source>Duplicate Start Time</source>
@@ -96,6 +96,105 @@
     <message>
         <source>An event is already scheduled with this start time!</source>
         <translation>Un evento ha sido programado con esa misma hora de inicio!</translation>
+    </message>
+</context>
+<context>
+    <name>HourSelector</name>
+    <message>
+        <source>12a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>1a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>2a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>3a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>4a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>5a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>6a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>7a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>8a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>9a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>10a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>11a</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>12p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>1p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>2p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>3p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>4p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>5p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>6p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>7p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>8p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>9p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>10p</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>11p</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -409,7 +508,7 @@ Final</translation>
     </message>
     <message>
         <source>RDAirPlay - Host:</source>
-        <translation>RDAirPlay - Computador:</translation>
+        <translation type="obsolete">RDAirPlay - Equipo:</translation>
     </message>
     <message>
         <source>Database Error</source>
@@ -469,6 +568,26 @@ REFRESHING</source>
         <translation>LEYENDO
 LISTA</translation>
     </message>
+    <message>
+        <source>User:</source>
+        <translation>Usuario:</translation>
+    </message>
+    <message>
+        <source>Log:</source>
+        <translation>Lista:</translation>
+    </message>
+    <message>
+        <source>Service:</source>
+        <translation>Servicio:</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>Equipo</translation>
+    </message>
+    <message>
+        <source>Host:</source>
+        <translation>Equipo:</translation>
+    </message>
 </context>
 <context>
     <name>ModeDisplay</name>
@@ -502,6 +621,49 @@ LISTA</translation>
     <message>
         <source>Next Timed Start [--:--:--]</source>
         <translation>Sig. Inicio Programado [--:--:--]</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>START</source>
+        <translation>INICIAR</translation>
+    </message>
+    <message>
+        <source>STOP</source>
+        <translation>PARAR</translation>
+    </message>
+    <message>
+        <source>PAUSE</source>
+        <translation>PAUSA</translation>
+    </message>
+    <message>
+        <source>RESUME</source>
+        <translation>SEGUIR</translation>
+    </message>
+    <message>
+        <source>WHERE?</source>
+        <translation>¿DÓNDE?</translation>
+    </message>
+    <message>
+        <source>DELETE?</source>
+        <translation>¿BORRAR?</translation>
+    </message>
+    <message>
+        <source>MOVE?</source>
+        <translation>¿MOVER?</translation>
+    </message>
+    <message>
+        <source>TO?</source>
+        <translation>¿HACIA?</translation>
+    </message>
+    <message>
+        <source>COPY?</source>
+        <translation>¿COPIAR?</translation>
+    </message>
+    <message>
+        <source>ERROR</source>
+        <translation>ERROR</translation>
     </message>
 </context>
 <context>
