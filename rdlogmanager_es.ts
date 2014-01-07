@@ -92,7 +92,8 @@
     </message>
     <message>
         <source>Save &amp;As</source>
-        <translation>Guardar &amp;como</translation>
+        <translation>Guardar
+&amp;como</translation>
     </message>
     <message>
         <source>&amp;Services
@@ -115,7 +116,7 @@ List</source>
     <message>
         <source>Are you sure you want to
 delete</source>
-        <translation>¿Está seguro de que quiere
+        <translation>¿Realmente desea
 eliminar</translation>
     </message>
     <message>
@@ -259,7 +260,7 @@ horario</translation>
     </message>
     <message>
         <source>before scheduled start.  (First cart will have a STOP transition.)</source>
-        <translation>antes de su inicio programado  (el primer cartucho tendrá una transición PARAR)</translation>
+        <translation>antes de su inicio programado  (el 1er cartucho tendrá transición PARAR)</translation>
     </message>
     <message>
         <source>TIMED START</source>
@@ -287,7 +288,7 @@ horario</translation>
     </message>
     <message>
         <source>Wait up to</source>
-        <translation>Esperar hasta</translation>
+        <translation>Espera hasta</translation>
     </message>
     <message>
         <source>Play</source>
@@ -509,6 +510,14 @@ Do you want to overwrite it?</source>
         <source>Len:</source>
         <translation>Long:</translation>
     </message>
+    <message>
+        <source>PRE-IMPORT CARTS</source>
+        <translation>PRE-IMPORTAR CARTUCHOS</translation>
+    </message>
+    <message>
+        <source>IMPORT</source>
+        <translation>IMPORTAR</translation>
+    </message>
 </context>
 <context>
     <name>EditEventLine</name>
@@ -526,7 +535,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Start Time:</source>
-        <translation>Hora de Inicio:</translation>
+        <translation>Hora Inicio:</translation>
     </message>
     <message>
         <source>End Time:</source>
@@ -580,6 +589,11 @@ un evento ya existente.</translation>
     <message>
         <source>Clear Hour</source>
         <translation>Limpiar tortas</translation>
+    </message>
+    <message>
+        <source>Change
+&amp;All</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -664,7 +678,7 @@ un evento ya existente.</translation>
     </message>
     <message>
         <source>Scheduler Codes:</source>
-        <translation>Códigos de programación:</translation>
+        <translation>Códigos para programación:</translation>
     </message>
     <message>
         <source>Rules Modified</source>
@@ -675,6 +689,18 @@ un evento ya existente.</translation>
 Do you want to save?</source>
         <translation>Las reglas han sido modificadas.
 ¿Desea guardarlas?</translation>
+    </message>
+    <message>
+        <source>Scheduler Rules</source>
+        <translation>Reglas de Horario</translation>
+    </message>
+    <message>
+        <source>Artist Separation:</source>
+        <translation>Separac. p/Artista:</translation>
+    </message>
+    <message>
+        <source>Import Rules from Clock</source>
+        <translation>Importar reglas desde Torta</translation>
     </message>
 </context>
 <context>
@@ -931,7 +957,7 @@ removerá estos datos.  ¿Remezclar?</translation>
     <message>
         <source>Are you sure you want to
 delete</source>
-        <translation>¿Está seguro de que quiere
+        <translation>Realmente desea 
 eliminar</translation>
     </message>
     <message>
@@ -1020,7 +1046,7 @@ eliminar</translation>
     <message>
         <source>Are you sure you want to
 delete</source>
-        <translation>¿Está seguro de que quiere
+        <translation>Realmente desea
 eliminar</translation>
     </message>
     <message>
@@ -1216,7 +1242,11 @@ Reporte</translation>
     </message>
     <message>
         <source>Report complete!</source>
-        <translation>¡Reporte completado!</translation>
+        <translation type="obsolete">¡Reporte completado!</translation>
+    </message>
+    <message>
+        <source>Report generated in</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1289,7 +1319,7 @@ Reporte</translation>
     </message>
     <message>
         <source>Are you sure you want to delete report data for</source>
-        <translation>¿Está seguro de eliminar el reporte de datos para</translation>
+        <translation>Desea eliminar el reporte de datos para</translation>
     </message>
     <message>
         <source>&amp;Purge
@@ -1302,7 +1332,7 @@ Datos</translation>
     <name>editSchedCodeRules</name>
     <message>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Aceptar</translation>
+        <translation>&amp;Aceptar</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1327,6 +1357,10 @@ Datos</translation>
     <message>
         <source>Or after:</source>
         <translation>O después de:</translation>
+    </message>
+    <message>
+        <source>Edit Rules for Code</source>
+        <translation>Editar reglas para el código</translation>
     </message>
 </context>
 </TS>

@@ -134,7 +134,7 @@ Do you still want to proceed?</source>
     <message>
         <source>This cut is used in one or more RDCatch events!
 Do you still want to delete it?</source>
-        <translation>¡Este audio está en uso por uno o más eventos de RDCatch!
+        <translation type="obsolete">¡Este audio está en uso por uno o más eventos de RDCatch!
 ¿Desea eliminarlo de todas formas?</translation>
     </message>
     <message>
@@ -173,11 +173,52 @@ Audio</translation>
     </message>
     <message>
         <source>Unable to delete audio!</source>
-        <translation>¡No se pudo eliminar el audio!</translation>
+        <translation type="obsolete">¡No se pudo eliminar el audio!</translation>
     </message>
     <message>
         <source>No audio is present in the cut!</source>
         <translation>¡No hay audios en este cut!</translation>
+    </message>
+    <message>
+        <source>This cart cannot contain any additional cuts!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RDLibrary - Edit Cart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete Cuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>cuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One or more cuts are used in one or more RDCatch events!
+Do you still want to delete?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to delete audio for cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy Cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No data copied - you must select a single cut!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paste Cut</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You must select a single cut!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -331,6 +372,14 @@ Lectura</translation>
     <message>
         <source>Rip Track</source>
         <translation>Leyendo pista</translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[none]</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -605,7 +654,7 @@ Abortada!</translation>
     </message>
     <message>
         <source>Schedule Cuts:</source>
-        <translation>Audios programad.:</translation>
+        <translation type="obsolete">Audios programad.:</translation>
     </message>
     <message>
         <source>&amp;Edit
@@ -639,11 +688,11 @@ Script</translation>
     </message>
     <message>
         <source>Sequentially</source>
-        <translation>Secuencial</translation>
+        <translation type="obsolete">Secuencial</translation>
     </message>
     <message>
         <source>Randomly</source>
-        <translation>Aleatorio</translation>
+        <translation type="obsolete">Aleatorio</translation>
     </message>
     <message>
         <source>Missing Title</source>
@@ -713,12 +762,82 @@ Notes</source>
         <translation>&amp;Editar
 Notas</translation>
     </message>
+    <message>
+        <source>RDLibrary - Edit Cart</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This cart cannot contain any additional cuts!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cond&amp;uctor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Song &amp;ID:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Beats per Minute:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>EditMacro</name>
     <message>
         <source>Edit Macro</source>
         <translation>Editar macro</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>Acepta&amp;r</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancelar</translation>
+    </message>
+</context>
+<context>
+    <name>EditNotes</name>
+    <message>
+        <source>Notes for cart</source>
+        <translation>Notas para el cartucho</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>Acepta&amp;r</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancelar</translation>
+    </message>
+</context>
+<context>
+    <name>EditSchedulerCodes</name>
+    <message>
+        <source>Select Scheduler Codes</source>
+        <translation>Elija Códigos para Musicalizar</translation>
+    </message>
+    <message>
+        <source>Available Codes</source>
+        <translation>Códigos disponibles</translation>
+    </message>
+    <message>
+        <source>Assigned Codes</source>
+        <translation>Códigos Asignados</translation>
+    </message>
+    <message>
+        <source>ASSIGN to Carts</source>
+        <translation>ASIGNAR a cartuchos</translation>
+    </message>
+    <message>
+        <source>REMOVE from Carts</source>
+        <translation>REMOVER de Cartuchos</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -750,6 +869,53 @@ Notas</translation>
     <message>
         <source>&amp;Filter:</source>
         <translation>&amp;Filtro:</translation>
+    </message>
+</context>
+<context>
+    <name>ListReports</name>
+    <message>
+        <source>RDLibrary Reports</source>
+        <translation>Reportes de RDLibrary</translation>
+    </message>
+    <message>
+        <source>Cart Report</source>
+        <translation>Reporte de Cartuchos</translation>
+    </message>
+    <message>
+        <source>Cut Report</source>
+        <translation>Reporte de Audios</translation>
+    </message>
+    <message>
+        <source>Cart Data Dump</source>
+        <translation type="obsolete">Vaciado de datos de Cartuchos</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Tipo:</translation>
+    </message>
+    <message>
+        <source>&amp;Generate</source>
+        <translation>&amp;Generar</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>&amp;Cerrar</translation>
+    </message>
+    <message>
+        <source>ALL</source>
+        <translation type="unfinished">TODAS</translation>
+    </message>
+    <message>
+        <source>Cart Data Dump (fixed width)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cart Data Dump (CSV)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prepend Field Names</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -879,7 +1045,7 @@ Cartucho</translation>
     </message>
     <message>
         <source>PLAY ORDER</source>
-        <translation>ORDEN DE REPROD.</translation>
+        <translation type="obsolete">ORDEN DE REPROD.</translation>
     </message>
     <message>
         <source>ENFORCE LENGTH</source>
@@ -911,7 +1077,7 @@ Cartucho</translation>
     </message>
     <message>
         <source>ALL</source>
-        <translation>ALL</translation>
+        <translation>TODAS</translation>
     </message>
     <message>
         <source>Empty Clipboard</source>
@@ -919,11 +1085,11 @@ Cartucho</translation>
     </message>
     <message>
         <source>Sequence</source>
-        <translation>Secuencia</translation>
+        <translation type="obsolete">Secuencia</translation>
     </message>
     <message>
         <source>Random</source>
-        <translation>Aleatorio</translation>
+        <translation type="obsolete">Aleatorio</translation>
     </message>
     <message>
         <source>TFN</source>
@@ -931,11 +1097,11 @@ Cartucho</translation>
     </message>
     <message>
         <source>RDLibrary - Host:</source>
-        <translation>RDLibrary - Servidor: </translation>
+        <translation type="obsolete">RDLibrary - Servidor: </translation>
     </message>
     <message>
         <source>, User:</source>
-        <translation>, Usuario:</translation>
+        <translation type="obsolete">, Usuario:</translation>
     </message>
     <message>
         <source>&amp;Rip
@@ -1014,6 +1180,30 @@ Do you still want to delete it?</source>
     <message>
         <source> Matches</source>
         <translation> hallazgos</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>COMPOSER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CONDUCTOR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PUBLISHER</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow Cart Dragging</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1116,7 +1306,7 @@ Do you still want to delete it?</source>
     </message>
     <message>
         <source>NO SYNC!</source>
-        <translation>¡NO SINC.!</translation>
+        <translation type="obsolete">¡NO SINC.!</translation>
     </message>
     <message>
         <source>Channels</source>
@@ -1247,6 +1437,10 @@ Do you still want to save?</source>
     <message>
         <source>&amp;ISCI Code</source>
         <translation>Código &amp;ISCI</translation>
+    </message>
+    <message>
+        <source>AES ALARM</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
