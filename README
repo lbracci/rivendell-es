@@ -1,4 +1,4 @@
-RIVENDELL 2.1.1 - ARCHIVOS PARA LA VERSION EN ESPAÑOL - SPANISH LANGUAGE FILES
+RIVENDELL 2.6.2 - ARCHIVOS PARA LA VERSION EN ESPAÑOL - SPANISH LANGUAGE FILES
 ==============================================================================
 Luigino Bracci Roa
 Lbracci@gmail.com
@@ -30,15 +30,6 @@ The following words were traslated as shown:
 - clock = torta
 - grid = parrilla
 
-Si sólo está interesado en usar las traducciones, simplemente descomprima
-el archivo rivendell_es_qm.tar.gz en la carpeta /usr/share/rivendell 
-(en Ubuntu, Canaima y Debian) para tener las traducciones funcionando en 
-su equipo.
-
-If you just want to use the traslations, please uncompress the file 
-rivendell_es_qm.tar.gz in the /usr/share/rivendell folder (en Ubuntu, 
-Canaima y Debian).
-
 Los archivos .ts deben sustituir a los archivos .ts en el código fuente. 
 Para ello, puede usar los scripts rdtrans.sh o rdtransgui.sh en la
 carpeta /helpers/ dentro del código fuente de Rivendell para copiar 
@@ -51,8 +42,5 @@ to copy the .ts files in their folders.
 
 Critics and suggestions: Lbracci@gmail.com
 Críticas y sugerencias: Lbracci@gmail.com
-
-
-
 
 
